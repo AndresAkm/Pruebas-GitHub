@@ -1,0 +1,1 @@
+### Este proyecto es una prueba para identificar como funciona el flow de github, nos ayudará a aprender lo basico y ha resolver conflictos en trabajos grupales.
