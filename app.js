@@ -1,5 +1,6 @@
 import express from "express"
 import { configDotenv } from "dotenv"
+import connectDB from "./src/config/connectiondb.js"
 configDotenv()
 
 const app = express()
@@ -20,4 +21,5 @@ app.get('/', (req, res) => {
 
 app.listen(process.env.PORT, () => {
     console.log("Aplicación escuchando en puerto 8600: \n http://localhost:8600")
+    connectDB()
 })
